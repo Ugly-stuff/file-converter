@@ -1,12 +1,21 @@
-# React + Vite
+This is a simple and easy-to-use project for converting files between different formats, such as:
+ PDF ↔ Word  or  PNG ↔ JPEG  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The project uses an online file conversion service (for example, CloudConvert).  
+To use this application you only need to get an API key from any supported platform and add it to the `.env` file.
+Once the API key is set correctly, everything else should work smoothly.
 
-Currently, two official plugins are available:
+How to Run the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ Clone the repository  
+ Install the required dependencies  
+ Create a `.env` file and add your API key  
+ Start the server  
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ Environment Setup
+
+Create a `.env` file in the root folder and add:
+
+inside .env : 
+CLOUDCONVERT_API_KEY=your_api_key_here
