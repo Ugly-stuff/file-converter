@@ -11,7 +11,6 @@ const App = () => {
   const handleDrop = (e) => {
     e.preventDefault();
     setError("");
-
     const droppedFiles = Array.from(e.dataTransfer.files);
 
     if (droppedFiles.length > MAX_FILES) {
